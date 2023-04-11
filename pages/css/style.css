@@ -25,16 +25,9 @@ header {
 }
 
 main {
-    float: left;
     width: 80%;
-    padding: 15px;
-}
+    padding: 30px;
 
-aside {
-    float: left;
-    width: 20%;
-    background: lightblue;
-    padding: 15px;
 }
 
 .popup {
@@ -88,3 +81,25 @@ form button {
     clear:both;
     display: block;
 }
+.one{
+    width:150px;
+    height: 40px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -26,14 +26,16 @@ class Search extends React.Component {
         return data
 	}
 
+
     render() {
         return (
             <div>
-            <h3>Search a apartment</h3>
-			<form onSubmit={e => this.OnSubmit(e)}>
-		    <input type="text" className="form-control" id="SearchInput" placeholder="apartment name"/>
-	        <button type="submit" className="btn btn-primary">Search</button>
-	    	</form><br/><br/>
+                <h3>שלום, בעל דירה </h3>
+
+            <button className="one">Payments</button>
+            <button className="one">Messages</button>
+            <button className="one">Profile</button>
+            <button className="one">Apartment</button>
             </div>
         )
     }

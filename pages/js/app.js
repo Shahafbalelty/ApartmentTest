@@ -29,11 +29,6 @@ class App extends React.Component {
 					null,
 					React.createElement(Search, { updateApartment: this.UpdateApartment }),
 					React.createElement(ApartmentList, { apartment: this.state.apartment })
-				),
-				React.createElement(
-					"aside",
-					null,
-					React.createElement(PostApartment, null)
 				)
 			)
 		);

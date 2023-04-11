@@ -33,20 +33,28 @@ class Search extends React.Component {
             React.createElement(
                 'h3',
                 null,
-                'Search a apartment'
+                '\u05E9\u05DC\u05D5\u05DD, \u05D1\u05E2\u05DC \u05D3\u05D9\u05E8\u05D4 '
             ),
             React.createElement(
-                'form',
-                { onSubmit: e => this.OnSubmit(e) },
-                React.createElement('input', { type: 'text', className: 'form-control', id: 'SearchInput', placeholder: 'apartment name' }),
-                React.createElement(
-                    'button',
-                    { type: 'submit', className: 'btn btn-primary' },
-                    'Search'
-                )
+                'button',
+                { className: 'one' },
+                'Payments'
             ),
-            React.createElement('br', null),
-            React.createElement('br', null)
+            React.createElement(
+                'button',
+                { className: 'one' },
+                'Messages'
+            ),
+            React.createElement(
+                'button',
+                { className: 'one' },
+                'Profile'
+            ),
+            React.createElement(
+                'button',
+                { className: 'one' },
+                'Apartment'
+            )
         );
     }
 }
